@@ -1,3 +1,11 @@
+<style>
+	.btn-solicitacao:hover {
+		background-color: #343a40 !important;
+		color: #fff;
+		box-shadow: 0px 0px 10px #fff;
+		transition: 0.3s;
+	}
+</style>
 <!-- Home -->
 <section class="home sessao" id="home">
 	<div class="container">
@@ -28,7 +36,7 @@
 			<!-- Imagem da seção -->
 			<div class="col-md-6 d-none d-md-block d-flex">
 				<div class="area-ima-topo align-self-center">
-					<img src="<?php echo base_url('assets/img/woman-home.png') ?>" class="ml-5" width="500" title="Modelo_Finans">
+					<img src="<?php echo base_url('assets/img/woman-home.png') ?>" class="ml-5" width="100%" title="Modelo_Finans">
 				</div>
 			</div>
 			<!-- Fim da imagem -->
@@ -415,6 +423,10 @@
 						</div>
 					</div>
 
+					<div class="col-12 text-center">
+						<p><strong>Atenção</strong>, nenhum dos dados acima são salvos/armazenados, são apenas para envio da mensagem via Whatsapp.</p>
+					</div>
+
 					<div class="col-12 mt-3 mb-3 text-center">
 						<button type="submit" class="btn btn-light btn-lg btn-solicitacao">
 							Solicitar simulação
@@ -425,6 +437,7 @@
 				<?php echo form_close() ?>
 
 			</div>
+
 		</div>
 	</div>
 </section>
@@ -432,7 +445,7 @@
 
 <div class="modal fade" tabindex="-1" id="modal-informativo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 	<div class="modal-dialog modal-md">
-		<div class="modal-content text-white bg-warning p-3">
+		<div class="modal-content text-white p-3" style="background-color: #FF9800;">
 			<div class="modal-body">
 				<div class="row">
 					<div class="col-12">

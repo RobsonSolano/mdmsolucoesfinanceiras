@@ -24,7 +24,7 @@
 						<a href="#duvidas-frequentes" class="page-scroll">Dúvidas frequentes</a>
 					</li>
 					<li class="list-group-item bg-transparent border-0 p-0 mb-2">
-						<a href="#contatos" class="page-scroll">Contatos</a>
+						<a href="#contato" class="page-scroll">Contatos</a>
 					</li>
 				</ul>
 			</div>
@@ -55,7 +55,7 @@
 						</strong> 9:00 ás 18 horas (dias úteis).
 					</p>
 					<p>E-mail de contato: mdmsolucoesfinanceiras@gmail.com</p>
-					<p class="mr-4">&copf; Todos os direitos reservados - <?php echo date('Y') ?></p>
+					<p class="mr-4">&copy; Todos os direitos reservados - <?php echo date('Y') ?></p>
 				</div>
 			</div>
 		</div>
